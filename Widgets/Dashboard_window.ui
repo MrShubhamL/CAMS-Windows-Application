@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1366</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  #1F1B24;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>40</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>180</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total Stock Amount</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>80</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>  12000</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(INR)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>276</x>
+     <y>180</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total Stock Quantity</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>251</x>
+     <y>40</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>506</x>
+     <y>160</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total Return Stock 
+         Amount</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>476</x>
+     <y>39</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>736</x>
+     <y>161</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total Return Stock 
+         Qauntity</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>706</x>
+     <y>40</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>936</x>
+     <y>39</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>986</x>
+     <y>160</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total Profit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>1166</x>
+     <y>39</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>1216</x>
+     <y>160</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total Loss</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>326</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(Qty)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>262</x>
+     <y>80</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>  12000</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>80</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>  12000</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(INR)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>716</x>
+     <y>80</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>  12000</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(Qty)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>946</x>
+     <y>80</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>  12000</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(INR)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>1177</x>
+     <y>80</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 28pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>      0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>1241</x>
+     <y>130</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(INR)</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>280</y>
+     <width>651</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  #1F1B24;
+selection-color: rgb(52, 52, 52);
+font: 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="verticalScrollMode">
+    <enum>QAbstractItemView::ScrollPerPixel</enum>
+   </property>
+   <property name="horizontalScrollMode">
+    <enum>QAbstractItemView::ScrollPerPixel</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>150</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Customer Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Customer Contact</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Customer Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Customer Address</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Total Purchase Amount</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Bill Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>280</y>
+     <width>651</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  #1F1B24;
+selection-color: rgb(52, 52, 52);
+font: 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="verticalScrollMode">
+    <enum>QAbstractItemView::ScrollPerPixel</enum>
+   </property>
+   <property name="horizontalScrollMode">
+    <enum>QAbstractItemView::ScrollPerPixel</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>150</number>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Product Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Product Code</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Qty</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sale Rate</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Daily Sales Record</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>250</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>New Added Products</string>
+   </property>
+  </widget>
+  <zorder>label_22</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_25</zorder>
+  <zorder>label_26</zorder>
+  <zorder>label_27</zorder>
+  <zorder>label_28</zorder>
+  <zorder>label_29</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_31</zorder>
+  <zorder>label_32</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>tableWidget_2</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_12</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

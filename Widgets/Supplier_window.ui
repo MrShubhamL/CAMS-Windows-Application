@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>20</y>
+     <width>1331</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  #1F1B24;</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>50</y>
+      <width>501</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color:  #1F1B24;
+font: 10pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Contact Information</string>
+    </property>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>60</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Company Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>60</y>
+       <width>371</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>100</y>
+       <width>371</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>100</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Address Details</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Phone No.</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>20</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>10</number>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_15">
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>140</y>
+       <width>371</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Company Web</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>19</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Vendor Code</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>112</x>
+       <y>19</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>50</y>
+      <width>391</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color:  #1F1B24;
+font: 10pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Business Information</string>
+    </property>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>21</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Product Details</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_8">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>21</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_9">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>61</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>61</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Service Details</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>101</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>License Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_10">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>101</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>141</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>GST Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_11">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>141</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>50</y>
+      <width>381</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color:  #1F1B24;
+font: 10pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Personal Information</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit_12">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>22</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Vendor Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_13">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>60</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>10</number>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>62</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Vendor Contact</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_14">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>100</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+background-color:  #1F1B24;
+border: 0.5px solid green;
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>102</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Vendor Address</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>290</y>
+      <width>1301</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:  #1F1B24;
+selection-color: rgb(52, 52, 52);
+font: 9pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="verticalScrollMode">
+     <enum>QAbstractItemView::ScrollPerPixel</enum>
+    </property>
+    <property name="horizontalScrollMode">
+     <enum>QAbstractItemView::ScrollPerPixel</enum>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>150</number>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Vendor Code</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Company Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Address</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Phone</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Website</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Details</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Service Details</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>License Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>GST Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vendor Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vendor Contact</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vendor Address</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>250</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_9{
+color: white;
+background-color:  green;
+border: 0.5px solid green;
+}
+QPushButton#pushButton_9:hover{
+color: white;
+background-color: rgb(35, 59, 28);
+border: 0.5px solid green;
+}
+QPushButton#pushButton_9:pressed{
+padding-left:5px;
+padding-top:5px;
+color: white;
+background-color:  green;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ADD VENDOR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button_2">
+    <property name="geometry">
+     <rect>
+      <x>1205</x>
+      <y>16</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#close_button_2{
+color: white;
+background-color:  red;
+border: 0.5px solid red;
+}
+QPushButton#close_button_2:hover{
+color: white;
+background-color: rgb(171, 0, 0);
+border: 0.5px solid red;
+}
+QPushButton#close_button_2:pressed{
+padding-left:5px;
+padding-top:5px;
+color: white;
+background-color:  red;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CLOSE WINDOW</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>245</x>
+      <y>250</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_12{
+color: white;
+background-color:  green;
+border: 0.5px solid green;
+}
+QPushButton#pushButton_12:hover{
+color: white;
+background-color: rgb(35, 59, 28);
+border: 0.5px solid green;
+}
+QPushButton#pushButton_12:pressed{
+padding-left:5px;
+padding-top:5px;
+color: white;
+background-color:  green;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>DELETE VENDOR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>366</x>
+      <y>250</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_10{
+color: white;
+background-color:  green;
+border: 0.5px solid green;
+}
+QPushButton#pushButton_10:hover{
+color: white;
+background-color: rgb(35, 59, 28);
+border: 0.5px solid green;
+}
+QPushButton#pushButton_10:pressed{
+padding-left:5px;
+padding-top:5px;
+color: white;
+background-color:  green;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>250</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_11{
+color: white;
+background-color:  green;
+border: 0.5px solid green;
+}
+QPushButton#pushButton_11:hover{
+color: white;
+background-color: rgb(35, 59, 28);
+border: 0.5px solid green;
+}
+QPushButton#pushButton_11:pressed{
+padding-left:5px;
+padding-top:5px;
+color: white;
+background-color:  green;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>UPDATE VENDOR</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>768</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1366</width>
+     <height>768</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0, 0, 0, 200);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_15</zorder>
+  <zorder>widget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
